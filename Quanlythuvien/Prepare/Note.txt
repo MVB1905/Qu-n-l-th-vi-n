@@ -1,0 +1,42 @@
+﻿Sửa Form Admin - DONE
+	 - Xóa validate (Check thủ thư)
+	 - Thêm phân quyền (Độc giả)
+	 - Sửa form (Lấy thông tin)
+	 - Không đồng thời thêm thủ thư khi tạo tài khoản
+Trả sách theo ID độc giả - DONE
+Sử dụng check box - FIXED
+
+// Chỉnh số lượng sách - DONE
+
+// BUG - FIXED
+ Khi sửa tài liệu sẽ mất file tài iiệu 
+
+// Khi mượn sách thì tạo tài khoản luôn  - DONE
+Nếu người mượn sách là độc giả đã có trong hệ thống: Tạo tài khoản
+Nếu người mượn sách là độc giả chưa có trong hệ thống: Tạo độc giả - Tạo tài khoản
+
+Khi Sửa thông tin thủ thư (Email, Tên) đồng thời sửa tài khoàn - DONE
+Khi Tạo/Sửa thông tin tài khoản thì đồng thời sửa thủ thư (Tên/ Email) - DONE
+
+
+// Khi phạt thì sẽ load giá sách - DONE
+
+// Khi mượn sách sẽ trừ đi số lượng của sách được mượn  - DONE
+// Khi trả sách sẽ cộng lại số lượng đã mượn - DONE
+// VD mượn 2 quyển vi sinh vật Update Sách
+// Select soluong From Sach 
+// If soluong > canmuon
+	// Query
+	// Upadte Chitietphieumuon
+	// Update Sach -- canmuon
+// Else 
+    // Error
+
+
+ Thống kê - PAUSE
+	Sách còn lại trong kho (Theo thể loại)
+	Sách đang mượn
+	Sách đã trả
+	Độc giả mượn sách
+	Sách quá hạn
+	Phạt
